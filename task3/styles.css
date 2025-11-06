@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Georgia', 'Times New Roman', 'Times, serif';
+}
+
+.cards {
+    margin: 200px;
+    position: relative;
+}
+
+p {
+    font-weight: bold;
+    color: black;
+}
+
+h3 {
+    color: grey;
+}
+
+.card-1 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    border: none;
+    width: 200px;
+    height: 300px;
+    box-shadow: 10px 7px 10px grey;
+    z-index: 1;
+}
+
+.card-2 {
+    position: absolute;
+    top: 0%;
+    left: 20%;
+    border: none;
+    width: 200px;
+    height: 300px;
+    box-shadow: 10px 7px 10px grey;
+    z-index: 1;
+}
+
+.card-3 {
+    position: absolute;
+    top: 0%;
+    left: 40%;
+    border: none;
+    width: 200px;
+    height: 300px;
+    box-shadow: 10px 7px 10px grey;
+    z-index: 1;
+}
+
+.card-1:hover {
+    background-color: black;
+    opacity: 0.5;
+    z-index: 2;
+}
+
+.card-2:hover {
+    background-color: black;
+    opacity: 0.5;
+    z-index: 2;
+}
+
+.card-3:hover {
+    background-color: black;
+    opacity: 0.5;
+    z-index: 2;
+}
