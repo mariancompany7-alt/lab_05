@@ -1,0 +1,31 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    margin: 125px 450px;
+    background-color: grey;
+    border: 8px solid lightgrey;
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+
+.container img {
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    position: absolute;
+}
+
+.container .frame {
+    border: 8px solid pink;
+    z-index: 1;
+    position: absolute;
+    transform: rotate(45deg);
+    transform-origin: center;
+    width: 300px;
+    height: 300px;
+}
